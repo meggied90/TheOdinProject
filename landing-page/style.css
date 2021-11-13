@@ -1,0 +1,179 @@
+body {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-basis: 100%;
+}
+
+.header {
+    display:flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-weight: bolder;
+    justify-content: space-between;   
+    padding: 10px 72px; 
+}
+.header a {
+    color: #f9faf8;
+    font-size: 10px;
+    padding: 0px 10px;
+}
+
+.Logo {
+    display:flex;
+
+}
+
+.header-links {
+    display: flex;
+    justify-self: flex-end;
+}
+
+
+
+.main {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 48px 72px;
+    justify-content: stretch;
+}
+
+.mainimg {
+    width: 300px;
+    height: auto;
+    display:flex;
+}
+
+.intro {
+    display:flex;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+}
+
+.randominfo {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 10%;
+    justify-content: center;
+}
+.randominfo h2 {
+    text-align: center;
+    flex: 1 0 100%;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.options {
+    display: flex;
+    flex-basis: 0;
+    padding: 10px;
+}
+
+.col {
+    padding: 10px;
+}
+
+.col img {
+    height: 100px;
+    width: 100px;
+    max-width: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.col p {
+    text-align: center;
+    color: #1F2937;
+    font-size: 12px;
+}
+
+.quote {
+    display:flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    background-color: #E5E7Eb;
+}
+
+.quote p {
+    font-style:italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    margin: 0px;
+}
+.quote .author {
+    font-style:normal;
+    font-size: 24px;
+    font-weight:bold;
+    flex: 1;
+    margin-right: 0px;
+    margin-left: auto;
+    padding: 0px;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    margin: 50px 75px;
+    border-radius: 10px;
+    color: white;
+    padding: 50px 75px;
+    justify-content: space-between;
+    flex-basis: 100%;
+    align-content: center;
+}
+.call-to-action h3 {
+    font-size:  24px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.call-to-action button {
+    border: 2px solid whitesmoke;
+    margin: 10px;
+}
+
+.footer {
+    display:flex;
+    flex: 1 0 auto;
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 100px;
+    height:min-content;
+}
+
+p {
+    margin: 0px;
+}
+
