@@ -1,0 +1,24 @@
+* {
+    background: #606;
+    color:whitesmoke;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h3 {
+    color:wheat;
+}
+
+h4 {
+    color:wheat;
+}
+
+.recipe {
+    font-weight: bold;
+    color: #9cf;
+
+}
+
+.imagesize {
+    width: 250px;
+    height: auto
+}
