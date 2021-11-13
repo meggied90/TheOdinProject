@@ -1,0 +1,16 @@
+.base{
+    background-color: #f99;
+    font-family: Verdana, sans-serif;
+}
+#oneID{
+    color: #00C;
+    font-size: 36px;
+}
+.cooler{
+    font-size: 24px;
+}
+#hulk{
+    background-color:  #9f9;
+    font-size: 24px;
+    font-weight: bold;
+}
