@@ -1,5 +1,5 @@
 # TheOdinProject
-All of my TOP projects
+All of my TOP projects - CSS/HTML foundations
 
 https://www.theodinproject.com/
 
